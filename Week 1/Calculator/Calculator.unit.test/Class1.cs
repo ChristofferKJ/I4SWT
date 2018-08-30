@@ -56,7 +56,7 @@ namespace Calculator.unit.test
         [Test]
         public void Div_5divby10is0point5()
         {
-            Assert.That(uut_.Divide(10, 5), Is.EqualTo(0.5));
+            Assert.That(uut_.Divide(5, 10), Is.EqualTo(0.5));
         }
             
     }

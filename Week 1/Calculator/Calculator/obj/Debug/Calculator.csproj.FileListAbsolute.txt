@@ -9,3 +9,9 @@ C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\o
 C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\obj\Debug\Calculator.pdb
 C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\bin\Debug\Calculator.dll
 C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Marius\source\repos\I4SWT\Week 1\Calculator\Calculator\bin\Debug\Calculator.dll
+C:\Users\Marius\source\repos\I4SWT\Week 1\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\Marius\source\repos\I4SWT\Week 1\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\Marius\source\repos\I4SWT\Week 1\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Marius\source\repos\I4SWT\Week 1\Calculator\Calculator\obj\Debug\Calculator.dll
+C:\Users\Marius\source\repos\I4SWT\Week 1\Calculator\Calculator\obj\Debug\Calculator.pdb
