@@ -1,0 +1,6 @@
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Methods\bin\Debug\Methods.dll
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Methods\bin\Debug\Methods.pdb
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Methods\obj\Debug\Methods.csprojAssemblyReference.cache
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Methods\obj\Debug\Methods.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Methods\obj\Debug\Methods.dll
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Methods\obj\Debug\Methods.pdb

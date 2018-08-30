@@ -1,0 +1,10 @@
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\bin\Debug\Calculator.exe
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\bin\Debug\Methods.dll
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\bin\Debug\Methods.pdb
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\obj\Debug\Calculator.csproj.CopyComplete
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\obj\Debug\Calculator.exe
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\Week 1\Calculator\Calculator\obj\Debug\Calculator.pdb
