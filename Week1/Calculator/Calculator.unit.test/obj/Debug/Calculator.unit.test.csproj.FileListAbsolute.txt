@@ -11,3 +11,16 @@ C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calcula
 C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.csproj.CopyComplete
 C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.dll
 C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.pdb
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\Calculator.unit.test.dll
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\Calculator.unit.test.pdb
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\Calculator.dll
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\nunit.framework.dll
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\Calculator.pdb
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\Calculator.exe.config
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\nunit.framework.pdb
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\nunit.framework.xml
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.csprojAssemblyReference.cache
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.csproj.CoreCompileInputs.cache
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.csproj.CopyComplete
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.dll
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.pdb

@@ -21,3 +21,9 @@ C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calcula
 C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator\obj\Debug\Calculator.dll
 C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator\bin\Debug\Calculator.dll
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator\bin\Debug\Calculator.pdb
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator\obj\Debug\Calculator.dll
+C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\Week1\Calculator\Calculator\obj\Debug\Calculator.pdb

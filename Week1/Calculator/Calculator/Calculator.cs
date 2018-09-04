@@ -28,7 +28,7 @@ namespace Calculator
         public double Power(double x, double exp)
         {
             if (exp == 0)
-            { throw new Exception("exponent cant be zero thanks."); }
+            { throw new Exception("exponent cant be zero thanks."); } // Throw exception feature
 
             else
             return Math.Pow(x, exp);
@@ -36,7 +36,7 @@ namespace Calculator
 
         public double Divide(double dividend, double divisor)
         {
-            if (dividend == 0 || divisor == 0)
+            if (dividend == 0 || divisor == 0) // Throw exception feature
             { throw new DivideByZeroException(); } 
             
             else 

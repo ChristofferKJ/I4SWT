@@ -58,6 +58,18 @@ namespace Calculator.unit.test
         {
             Assert.That(uut_.Divide(5, 10), Is.EqualTo(0.5));
         }
-            
+
+        [Test]
+        public void Dividend0_AssertThrowException()
+        {
+            Assert.Throws<DivideByZeroException>(() => uut_.Divide(0, 2));
+        }
+        [Test]
+        public void Divisor0_AssertThrowException()
+        {
+
+            Assert.Throws<DivideByZeroException>(() => uut_.Divide(10, 0));
+        }
+
     }
 }
