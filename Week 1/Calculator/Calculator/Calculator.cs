@@ -27,6 +27,10 @@ namespace Calculator
 
         public double Power(double x, double exp)
         {
+            if (exp == 0)
+            { throw new Exception("exponent cant be zero thanks."); }
+
+            else
             return Math.Pow(x, exp);
         }
 
