@@ -1,0 +1,13 @@
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\Calculator.unit.test.dll
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\Calculator.unit.test.pdb
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\Calculator.dll
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\nunit.framework.dll
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\Calculator.pdb
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\Calculator.exe.config
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\nunit.framework.pdb
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\bin\Debug\nunit.framework.xml
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.csprojAssemblyReference.cache
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.csproj.CoreCompileInputs.cache
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.csproj.CopyComplete
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.dll
+C:\Users\Hindkaer\Desktop\IKT\4Semester\SWTShared\I4SWT\Week1\Calculator\Calculator.unit.test\obj\Debug\Calculator.unit.test.pdb
