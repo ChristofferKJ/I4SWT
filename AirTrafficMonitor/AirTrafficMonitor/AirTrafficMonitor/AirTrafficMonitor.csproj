@@ -48,6 +48,8 @@
   <ItemGroup>
     <Compile Include="Decoder.cs" />
     <Compile Include="IDecoder.cs" />
+    <Compile Include="ILog.cs" />
+    <Compile Include="Log.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
