@@ -26,6 +26,7 @@ namespace AirTrafficMonitor
             }
         }
     }
+    //TODO: Remove low level test
     /*class Program
     {
          static void Main(string[] args)
