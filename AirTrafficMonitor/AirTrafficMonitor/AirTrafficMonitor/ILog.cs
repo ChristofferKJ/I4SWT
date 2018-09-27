@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AirTrafficMonitor.Flights
+namespace AirTrafficMonitor
 {
-    interface Interface1
+    interface ILog
     {
+        void WriteToLog(String PlaneTagA, String PlaneTagB, string TimeOfOccurrencce);
     }
 }

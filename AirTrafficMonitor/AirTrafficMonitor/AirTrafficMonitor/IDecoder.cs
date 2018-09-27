@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AirTrafficMonitor.Flights
+namespace AirTrafficMonitor
 {
-    class Class1
+    interface IDecoder
     {
     }
 }

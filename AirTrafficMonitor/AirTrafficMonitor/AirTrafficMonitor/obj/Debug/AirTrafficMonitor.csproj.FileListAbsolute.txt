@@ -1,0 +1,12 @@
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\AirTrafficMonitor\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csprojAssemblyReference.cache
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\AirTrafficMonitor\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\AirTrafficMonitor\AirTrafficMonitor\AirTrafficMonitor\bin\Debug\AirTrafficMonitor.exe.config
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\AirTrafficMonitor\AirTrafficMonitor\AirTrafficMonitor\bin\Debug\AirTrafficMonitor.exe
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\AirTrafficMonitor\AirTrafficMonitor\AirTrafficMonitor\bin\Debug\AirTrafficMonitor.pdb
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\AirTrafficMonitor\AirTrafficMonitor\AirTrafficMonitor\bin\Debug\TransponderReceiver.dll
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\AirTrafficMonitor\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csproj.CopyComplete
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\AirTrafficMonitor\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.exe
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\AirTrafficMonitor\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.pdb
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\AirTrafficMonitor\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csprojAssemblyReference.cache
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\AirTrafficMonitor\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csproj.CoreCompileInputs.cache
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\AirTrafficMonitor\AirTrafficMonitor\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.exe
