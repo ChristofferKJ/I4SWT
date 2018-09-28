@@ -13,7 +13,7 @@ namespace ATM
         public int YCoordinate { get; set; }
         public int  Altitude { get; set; }
         public string TimeStamp { get; set; }
-        public int Velocity { get; set; }
+        public double Velocity { get; set; }
         public int Course { get; set; }
 
         public List<Plane> Planes;
@@ -36,19 +36,39 @@ namespace ATM
             {
                 if(plane.Tag == item.Tag)
                 {
-                    
+                    Console.WriteLine("Same tag");
+                }
+                else
+                {
+                    Console.WriteLine();
                 }
             }
         }
 
-        public void CalcVelocity(Plane oldPlane, Plane newPlane)
+        public double CalcVelocity(Plane oldPlane, Plane newPlane)
         {
             double XYDiff = Math.Sqrt((Math.Pow((newPlane.XCoordinate - oldPlane.XCoordinate),2) + Math.Pow((newPlane.YCoordinate - oldPlane.YCoordinate),2)));
-            double AltitudeDiff = oldPlane.Altitude - newPlane.Altitude;
+            double AltitudeDiff = Math.Abs(oldPlane.Altitude - newPlane.Altitude);
             double DistanceMoved = Math.Sqrt((Math.Pow(XYDiff,2) + Math.Pow(AltitudeDiff,2)));
+            double TimeUsed = Math.Abs(TimeStamptoSecInDouble(oldPlane.TimeStamp) -  TimeStamptoSecInDouble(newPlane.TimeStamp));
 
+            return (DistanceMoved / TimeUsed);
+        }
 
+        public double TimeStamptoSecInDouble(string timeStamp) // Tager kun døgn 
+        {
+            double timeStampInSecs = 0;
+            String substringHours = timeStamp.Substring(8, 2);
+            String substringMinutes = timeStamp.Substring(10, 2);
+            String substringSec = timeStamp.Substring(12, 2);
+            String substringMSec = timeStamp.Substring(14, 3);
 
+            timeStampInSecs += (60 * 60 * (double.Parse(substringHours)));
+            timeStampInSecs += (60 * double.Parse(substringMinutes));
+            timeStampInSecs += double.Parse(substringSec);
+            timeStampInSecs += (double.Parse(substringMSec)/1000);
+            Console.WriteLine($"Timestamp{this.TimeStamp} is {timeStampInSecs} secs"); 
+            return timeStampInSecs;
         }
     }
 }
