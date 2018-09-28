@@ -1,0 +1,10 @@
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\ATM rendition\obj\Debug\ATM rendition.csprojAssemblyReference.cache
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\ATM rendition\obj\Debug\ATM rendition.csproj.CoreCompileInputs.cache
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\ATM rendition\bin\Debug\ATM rendition.exe.config
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\ATM rendition\bin\Debug\ATM rendition.exe
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\ATM rendition\bin\Debug\ATM rendition.pdb
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\ATM rendition\bin\Debug\AirTrafficMonitor.dll
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\ATM rendition\bin\Debug\AirTrafficMonitor.pdb
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\ATM rendition\obj\Debug\ATM rendition.csproj.CopyComplete
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\ATM rendition\obj\Debug\ATM rendition.exe
+C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\ATM rendition\obj\Debug\ATM rendition.pdb
