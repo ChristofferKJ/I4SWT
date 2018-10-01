@@ -19,8 +19,12 @@ namespace ATM
             data.Add(fly1);
             data.Add(fly2);
 
-           
 
+            Plane plane1 = new Plane("ATR423", "1000", "1000", "5000", "20180928000000000");
+            Plane plane2 = new Plane("ATR423", "2000", "2000", "4000", "20180928000001000");
+
+            
+            Console.WriteLine($"Velocity in m/s: {plane1.CalcVelocity(plane1, plane2)}");
 
             Console.WriteLine(Decoder.Decode(data).Tag, Decoder.Decode(data).TimeStamp);
 
