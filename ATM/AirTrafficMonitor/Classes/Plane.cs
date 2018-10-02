@@ -36,11 +36,18 @@ namespace ATM
             {
                 if(plane.Tag == item.Tag)
                 {
-                    Console.WriteLine("Same tag");
+                    Console.WriteLine("Updating old plane");
+                    item.Velocity = CalcVelocity(item, plane);
+                    item.Altitude = plane.Altitude;
+                    item.XCoordinate = plane.XCoordinate;
+                    item.YCoordinate = plane.YCoordinate;
+                    item.TimeStamp = plane.TimeStamp;
+
                 }
                 else
                 {
-                    Console.WriteLine();
+                    Console.WriteLine("Adding new plane");
+                    Planes.Add(plane);
                 }
             }
         }
@@ -67,7 +74,7 @@ namespace ATM
             timeStampInSecs += (60 * double.Parse(substringMinutes));
             timeStampInSecs += double.Parse(substringSec);
             timeStampInSecs += (double.Parse(substringMSec)/1000);
-            Console.WriteLine($"Timestamp{this.TimeStamp} is {timeStampInSecs} secs"); 
+            Console.WriteLine($"Timestamp{TimeStamp} is {timeStampInSecs} secs"); // TODO delete
             return timeStampInSecs;
         }
     }
