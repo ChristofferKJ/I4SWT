@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace AirTrafficMonitor
+namespace ATM
 {
     class Log : ILog
     {

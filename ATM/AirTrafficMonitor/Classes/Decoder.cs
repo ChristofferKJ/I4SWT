@@ -9,8 +9,9 @@ namespace ATM
 {
     public class Decoder
     {
-        public static Plane Decode(List<string> ddata)
+        public List<Plane> Decode(List<string> ddata)
         {
+            List<Plane> planes = new List<Plane>();
 
             foreach (string fly in ddata)
             {
@@ -24,11 +25,12 @@ namespace ATM
                 string Timestamp = split[4];
 
                 Plane flyet = new Plane(tag, X_Coord, Y_Coord, Alt, Timestamp);
+                planes.Add(flyet); 
 
-                return flyet;
+
 
             }
-            return null; 
+            return planes; 
         }
 
     }

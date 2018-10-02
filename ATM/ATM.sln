@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirTrafficMonitor", "AirTra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM rendition", "ATM rendition\ATM rendition.csproj", "{DADFF313-9DF7-4D5E-8006-0FCB018B4CA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandleRTD.Test.Unit", "HandleRTD.Test.Unit\HandleRTD.Test.Unit.csproj", "{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,22 @@ Global
 		{DADFF313-9DF7-4D5E-8006-0FCB018B4CA9}.Release|x64.Build.0 = Release|Any CPU
 		{DADFF313-9DF7-4D5E-8006-0FCB018B4CA9}.Release|x86.ActiveCfg = Release|Any CPU
 		{DADFF313-9DF7-4D5E-8006-0FCB018B4CA9}.Release|x86.Build.0 = Release|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Debug|ARM.Build.0 = Debug|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Debug|x64.Build.0 = Debug|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Debug|x86.Build.0 = Debug|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Release|ARM.ActiveCfg = Release|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Release|ARM.Build.0 = Release|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Release|x64.ActiveCfg = Release|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Release|x64.Build.0 = Release|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Release|x86.ActiveCfg = Release|Any CPU
+		{6384A885-6BD3-4F25-B61A-9C2F5642DEBD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
