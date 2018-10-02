@@ -50,6 +50,7 @@
     <Compile Include="Classes\HandleRTD.cs" />
     <Compile Include="Classes\IDecoder.cs" />
     <Compile Include="Classes\ILog.cs" />
+    <Compile Include="Classes\Kursudregningen.cs" />
     <Compile Include="Classes\Log.cs" />
     <Compile Include="Classes\Plane.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
