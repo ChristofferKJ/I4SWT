@@ -12,9 +12,14 @@ namespace ATM
         {
             foreach (Plane plane in planes)
             {
-                Console.WriteLine($"Plane with tag: {plane.Tag} is at the coordinates({plane.XCoordinate},{plane.YCoordinate},{plane.Altitude})");
+                Console.WriteLine($"Plane tag: {plane.Tag}");
+                Console.WriteLine($"Position: ({plane.XCoordinate},{plane.YCoordinate})");
+                Console.WriteLine($"Altitude: {plane.Altitude}m");
+                Console.WriteLine($"Speed: {plane.Velocity}m/s");
+                Console.WriteLine($"Course: {plane.Course} degrees ");
             }
-
+            
+                
         }
         public void CurSepEvent(string planeA,string planeB, string TimeStamp)
         {
