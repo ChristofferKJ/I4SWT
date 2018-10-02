@@ -14,7 +14,7 @@ namespace ATM
         public int  Altitude { get; set; }
         public string TimeStamp { get; set; }
         public double Velocity { get; set; }
-        public int Course { get; set; }
+        public double Course { get; set; }
 
         public List<Plane> Planes;
 
@@ -42,7 +42,7 @@ namespace ATM
                     item.XCoordinate = plane.XCoordinate;
                     item.YCoordinate = plane.YCoordinate;
                     item.TimeStamp = plane.TimeStamp;
-                    item.Course = // add CalcCourse func
+                    item.Course = CalcCourse(item, plane);
 
                 }
                 else
@@ -79,6 +79,12 @@ namespace ATM
             return timeStampInSecs;
         }
 
-        public int 
+        public double CalcCourse(Plane oldPlane, Plane newPlane)
+        {
+            double dx = oldPlane.XCoordinate - newPlane.XCoordinate;
+            double dy = oldPlane.YCoordinate - newPlane.YCoordinate;
+
+            return Math.Atan2(dy, dx) * (180 / Math.PI);
+        }
     }
 }
