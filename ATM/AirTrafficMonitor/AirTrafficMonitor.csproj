@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Airspace.cs" />
     <Compile Include="Classes\Decoder.cs" />
     <Compile Include="Classes\HandleRTD.cs" />
     <Compile Include="Classes\IDecoder.cs" />
