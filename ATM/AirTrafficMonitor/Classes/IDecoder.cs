@@ -8,6 +8,6 @@ namespace ATM
 {
     interface IDecoder
     {
-        Plane Decode(List<string> ddata);
+        List<Plane> Decode(List<string> ddata);
     }
 }

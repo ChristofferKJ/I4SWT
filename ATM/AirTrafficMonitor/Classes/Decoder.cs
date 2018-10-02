@@ -25,7 +25,7 @@ namespace ATM
                 string Timestamp = split[4];
 
                 Plane flyet = new Plane(tag, X_Coord, Y_Coord, Alt, Timestamp);
-                planes.Add(flyet); 
+                flyet.AddPlane(flyet,planes);
 
 
 

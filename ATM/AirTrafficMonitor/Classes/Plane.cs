@@ -16,8 +16,7 @@ namespace ATM
         public double Velocity { get; set; }
         public double Course { get; set; }
 
-        public List<Plane> Planes;
-
+       
         public Plane(string tag, string x, string y, string altitude, string timeStamp )
         {
             Tag = tag;
@@ -25,14 +24,11 @@ namespace ATM
             YCoordinate = int.Parse(y);
             Altitude = int.Parse(altitude);
             TimeStamp = timeStamp;
-           // AddPlane(this);
-
-
         }
 
-        public void AddPlane(Plane plane)
+        public void AddPlane(Plane plane, List<Plane> planes)
         {
-            foreach (var item in Planes)
+            foreach (var item in planes)
             {
                 if(plane.Tag == item.Tag)
                 {
@@ -48,7 +44,7 @@ namespace ATM
                 else
                 {
                     Console.WriteLine("Adding new plane");
-                    Planes.Add(plane);
+                    planes.Add(plane);
                 }
             }
         }
@@ -84,7 +80,15 @@ namespace ATM
             double dx = oldPlane.XCoordinate - newPlane.XCoordinate;
             double dy = oldPlane.YCoordinate - newPlane.YCoordinate;
 
-            return Math.Atan2(dy, dx) * (180 / Math.PI);
+            double course = Math.Atan2(dy, dx) * (180 / Math.PI);
+
+            if (course < 0)
+            {
+                course += 360;
+            }
+
+            return course;
+            
         }
     }
 }
