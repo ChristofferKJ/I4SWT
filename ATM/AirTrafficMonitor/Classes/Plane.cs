@@ -42,6 +42,7 @@ namespace ATM
                     item.XCoordinate = plane.XCoordinate;
                     item.YCoordinate = plane.YCoordinate;
                     item.TimeStamp = plane.TimeStamp;
+                    item.Course = // add CalcCourse func
 
                 }
                 else
@@ -77,5 +78,7 @@ namespace ATM
             Console.WriteLine($"Timestamp{TimeStamp} is {timeStampInSecs} secs"); // TODO delete
             return timeStampInSecs;
         }
+
+        public int 
     }
 }
