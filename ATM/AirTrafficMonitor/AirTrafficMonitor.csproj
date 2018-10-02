@@ -47,12 +47,15 @@
   <ItemGroup>
     <Compile Include="Classes\Airspace.cs" />
     <Compile Include="Classes\Decoder.cs" />
+    <Compile Include="Classes\DetectSeparationEvent.cs" />
     <Compile Include="Classes\HandleRTD.cs" />
     <Compile Include="Classes\IDecoder.cs" />
+    <Compile Include="Classes\IDetectSeparationEvent.cs" />
     <Compile Include="Classes\ILog.cs" />
     <Compile Include="Classes\Kursudregningen.cs" />
     <Compile Include="Classes\Log.cs" />
     <Compile Include="Classes\Plane.cs" />
+    <Compile Include="Classes\Renedition.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
