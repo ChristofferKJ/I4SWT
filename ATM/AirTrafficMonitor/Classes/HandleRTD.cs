@@ -3,56 +3,29 @@ using TransponderReceiver;
 
 namespace ATM
 {
-    public class HandleRTD : ITransponderReceiver
+
+    public class HandleRTD
     {
-        public event EventHandler<RawTransponderDataEventArgs> TransponderDataReady;
 
-        public void handleEventData()
+        private ITransponderReceiver Receiver;
+
+
+        public HandleRTD(ITransponderReceiver receiver)
         {
-            if (TransponderDataReady == null)
+            Receiver = receiver;
+            Receiver.TransponderDataReady += OnDataReady;
+        }
+        private void OnDataReady(object sender, RawTransponderDataEventArgs e)
+        {
+            Console.WriteLine("Data ready");
+            foreach (var data in e.TransponderData)
             {
-                Console.WriteLine("Transponder Data error");
+                Console.WriteLine($"Data: {data}");
             }
-
-            while (true)
-            {
-                TransponderDataReady?.Invoke(this, null);
-            }
+                
         }
     }
-
-    public class RTDListener
-    {
-        RTDListener()
-        {
-
-        }
-
-        public void Listen(HandleRTD handler)
-        {
-            handler.TransponderDataReady += OnDataReady;
-
-            public class HandleRTD
-        {
-            private ITransponderReceiver Receiver;
-
-            public HandleRTD(ITransponderReceiver receiver)
-            {
-                Receiver = receiver;
-                Receiver.TransponderDataReady += OnDataReady;
-            }
-
-            /*  private void OnDataReady(object sender, RawTransponderDataEventArgs e)
-              {
-                  Console.WriteLine("Data ready");
-              }
-          }
-
-                  foreach (var data in e.TransponderData)
-                      Console.WriteLine($"Data: {data}");
-              }
-          }
-          */
+          
             /*      How to use the TransponderRecieverFactory 
                     // Using the real transponder data receiver
                     var receiver = TransponderReceiverFactory.CreateTransponderDataReceiver();
@@ -70,4 +43,4 @@ namespace ATM
 
 
 
-        } } }
+}
