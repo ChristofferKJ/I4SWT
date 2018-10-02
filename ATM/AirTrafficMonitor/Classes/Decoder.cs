@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace ATM
 {
-    public class Decoder
+    public class Decoder : IDecoder // TODO test med eventhandler 
     {
+
         public List<Plane> Decode(List<string> ddata)
         {
             List<Plane> planes = new List<Plane>();

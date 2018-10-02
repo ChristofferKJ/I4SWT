@@ -9,3 +9,10 @@ C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTraf
 C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.dll
 C:\Users\tobia\Desktop\GitRepo-SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.pdb
 C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csprojAssemblyReference.cache
+C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\AirTrafficMonitor.dll
+C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\AirTrafficMonitor.pdb
+C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\TransponderReceiver.dll
+C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csproj.CoreCompileInputs.cache
+C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csproj.CopyComplete
+C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.dll
+C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.pdb

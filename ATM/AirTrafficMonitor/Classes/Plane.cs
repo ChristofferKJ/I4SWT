@@ -44,6 +44,8 @@ namespace ATM
                 else
                 {
                     Console.WriteLine("Adding new plane");
+                    plane.Course = 0;
+                    plane.Velocity = 0;
                     planes.Add(plane);
                 }
             }

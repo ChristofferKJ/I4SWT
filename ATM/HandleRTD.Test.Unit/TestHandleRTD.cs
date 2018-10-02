@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NUnit.Framework;
 using TransponderReceiver;
 
 namespace HandleRTD.Test.Unit 
@@ -10,14 +11,14 @@ namespace HandleRTD.Test.Unit
     class TestHandleRTD // Taget fra Frank TODO ret 
     {
         private ITransponderReceiver _fakeTransponderReceiver;
-        private TransponderReceiverClient _uut;
+        private ATM.HandleRTD _uut;
         [SetUp]
         public void Setup()
         {
                 // Make a fake Transponder Data Receiver
-                _fakeTransponderReceiver = Substitute.For<ITransponderReceiver>();
+              //  _fakeTransponderReceiver = Substitute.For<ITransponderReceiver>();
                 // Inject the fake TDR
-                _uut = new TransponderReceiverClient(_fakeTransponderReceiver);
+                _uut = new ATM.HandleRTD(_fakeTransponderReceiver);
         }
 
         [Test]
@@ -30,8 +31,8 @@ namespace HandleRTD.Test.Unit
                 testData.Add("XYZ987;25059;75654;4000;20151006213456789");
 
                 // Act: Trigger the fake object to execute event invocation
-                _fakeTransponderReceiver.TransponderDataReady
-                    += Raise.EventWith(this, new RawTransponderDataEventArgs(testData));
+               // _fakeTransponderReceiver.TransponderDataReady
+                  //  += Raise.EventWith(this, new RawTransponderDataEventArgs(testData));
 
                 // Assert something here or use an NSubstitute Received
         }

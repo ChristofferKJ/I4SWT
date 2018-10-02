@@ -1,2 +1,4 @@
 C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\HandleRTD.Test.Unit\obj\Debug\HandleRTD.Test.Unit.csprojAssemblyReference.cache
 C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\ATM\HandleRTD.Test.Unit\obj\Debug\HandleRTD.Test.Unit.csproj.CoreCompileInputs.cache
+C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\HandleRTD.Test.Unit\obj\Debug\HandleRTD.Test.Unit.csprojAssemblyReference.cache
+C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\HandleRTD.Test.Unit\obj\Debug\HandleRTD.Test.Unit.csproj.CoreCompileInputs.cache
