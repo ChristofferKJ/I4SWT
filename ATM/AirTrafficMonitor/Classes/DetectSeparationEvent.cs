@@ -27,6 +27,9 @@ namespace ATM
         {
             Log log = new Log();
             log.WriteToLog(plane1.Tag, plane2.Tag, timestamp);
+
+            Renedition renedition = new Renedition();
+            renedition.CurSepEvent(plane1.Tag, plane2.Tag, timestamp);
         }
     }
 }
