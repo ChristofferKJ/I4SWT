@@ -25,28 +25,36 @@ namespace ATM
             YCoordinate = int.Parse(y);
             Altitude = int.Parse(altitude);
             TimeStamp = timeStamp;
-            Course = 0;
-            Velocity = 0;
+            
 
 
         }
 
-        public void CheckPlane(List<Plane> Planes, Plane plane)
+        public Plane CheckPlane(Plane plane1, Plane plane2)
         {
-            foreach (var plane1 in Planes)
+            Plane tempPlane = new Plane(plane1.Tag,plane1.XCoordinate.ToString(),plane1.YCoordinate.ToString(),plane1.Altitude.ToString(),plane1.TimeStamp);
+            Console.WriteLine("enter checkplane");
+
+            if (plane1.Tag == plane2.Tag)
             {
-                if (plane1.Tag == plane.Tag)
-                {
-                    plane1.Course += 10;  //CalcCourse(plane1, plane);
-                    plane1.Velocity += 10; //CalcVelocity(plane1, plane);
-                    return;
-                }
+                Console.WriteLine("Match");
+                tempPlane.Course += 10;  //CalcCourse(plane1, plane2);
+                tempPlane.Velocity += 10;  // CalcVelocity(plane1, plane2);
+                return tempPlane;
             }
-
-            Planes.Add(plane);
-                     
-
+            else
+            {
+                Console.WriteLine("error");
+                return tempPlane;
+            }
         }
+
+        
+
+
+
+
+        
 
         public double CalcVelocity(Plane oldPlane, Plane newPlane)
         {

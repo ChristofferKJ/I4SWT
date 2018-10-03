@@ -13,12 +13,13 @@ namespace ATM
         static void Main()
         {
             var receiver = TransponderReceiverFactory.CreateTransponderDataReceiver();
+            var decoder = new Decoder();
             var system = new HandleRTD(receiver);
             
 
 
             while (true)
-                Thread.Sleep(1000);
+                Thread.Sleep(5000);
 
 
 
