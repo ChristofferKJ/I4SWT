@@ -25,3 +25,6 @@ C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\De
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csproj.CopyComplete
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.dll
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.pdb
+C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\nunit.framework.dll
+C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\nunit.framework.pdb
+C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\nunit.framework.xml

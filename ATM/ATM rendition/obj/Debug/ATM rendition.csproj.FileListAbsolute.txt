@@ -40,3 +40,6 @@ C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\ATM rendition\obj\Debug\
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\ATM rendition\obj\Debug\ATM rendition.csproj.CopyComplete
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\ATM rendition\obj\Debug\ATM rendition.exe
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\ATM rendition\obj\Debug\ATM rendition.pdb
+C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\ATM rendition\bin\Debug\nunit.framework.dll
+C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\ATM rendition\bin\Debug\nunit.framework.pdb
+C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\ATM rendition\bin\Debug\nunit.framework.xml
