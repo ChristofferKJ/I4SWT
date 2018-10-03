@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirTrafficMonitor", "AirTrafficMonitor\AirTrafficMonitor.csproj", "{7192E4B0-8A5C-4073-8903-7FF227DC27FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM Library", "AirTrafficMonitor\ATM Library.csproj", "{7192E4B0-8A5C-4073-8903-7FF227DC27FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM rendition", "ATM rendition\ATM rendition.csproj", "{DADFF313-9DF7-4D5E-8006-0FCB018B4CA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM Application", "ATM rendition\ATM Application.csproj", "{DADFF313-9DF7-4D5E-8006-0FCB018B4CA9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirTrafficMonitor.Unit.Test", "AirTrafficMonitor.Unit.Test\AirTrafficMonitor.Unit.Test.csproj", "{62E411D0-B7B8-479C-8023-EF4833005AB1}"
 EndProject

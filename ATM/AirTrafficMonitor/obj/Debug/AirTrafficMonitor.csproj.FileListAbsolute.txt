@@ -28,3 +28,13 @@ C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\De
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\nunit.framework.dll
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\nunit.framework.pdb
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\nunit.framework.xml
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\bin\Debug\AirTrafficMonitor.dll
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\bin\Debug\AirTrafficMonitor.pdb
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\bin\Debug\nunit.framework.dll
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\bin\Debug\TransponderReceiver.dll
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\bin\Debug\nunit.framework.xml
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csprojAssemblyReference.cache
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csproj.CopyComplete
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.dll
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.pdb

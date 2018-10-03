@@ -1,0 +1,10 @@
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\obj\Debug\ATM Library.csprojAssemblyReference.cache
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\obj\Debug\ATM Library.csproj.CoreCompileInputs.cache
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.dll
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.pdb
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\bin\Debug\AirTrafficMonitor.dll
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\bin\Debug\AirTrafficMonitor.pdb
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\bin\Debug\nunit.framework.dll
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\bin\Debug\TransponderReceiver.dll
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\bin\Debug\nunit.framework.xml
+C:\Users\chris\Desktop\i4swt\I4SWT\ATM\AirTrafficMonitor\obj\Debug\ATM Library.csproj.CopyComplete

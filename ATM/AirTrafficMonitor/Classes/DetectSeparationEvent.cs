@@ -18,7 +18,7 @@ namespace ATM
                         plane1.YCoordinate - plane2.YCoordinate < 5000 ||
                         plane1.Altitude - plane2.Altitude < 300)
                     {
-                        PassSepEvent(plane1, plane2, plane1.TimeStamp);
+                        PassSepEvent(plane1, plane2, Convert.ToString(plane1.TimeStamp));
                     }
                 }
             }

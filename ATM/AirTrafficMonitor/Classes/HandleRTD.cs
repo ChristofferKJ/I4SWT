@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Security.AccessControl;
 using TransponderReceiver;
 
@@ -9,44 +10,46 @@ namespace ATM
     public class HandleRTD
     {
 
-        private ITransponderReceiver Receiver;
+        private readonly ITransponderReceiver Receiver;
+        private readonly Airspace _CheckPlanes;
 
-
-        public HandleRTD(ITransponderReceiver receiver)
+        public HandleRTD(ITransponderReceiver receiver, Airspace CheckPlanes)
         {
             Receiver = receiver;
             Receiver.TransponderDataReady += OnDataReady;
+            _CheckPlanes = CheckPlanes;
+
         }
 
         public void OnDataReady(object sender, RawTransponderDataEventArgs e)
         {
-            Decoder myDecoder = new Decoder();
+            var datalist = e.TransponderData;
+            var planeList = new List<Plane>();
 
-            Console.WriteLine("Data ready");
-            foreach (var data in e.TransponderData)
+            for(int i = 0; i<datalist.Count; i++)
             {
-                Console.WriteLine($"Data: {data}");
-
+                var plane = Decode(datalist[i]);
+                planeList.Add(plane); 
             }
 
-            IDecoder decoder = new Decoder();
-            decoder.Decode(e.TransponderData);
+            _CheckPlanes.CheckAirspace(planeList);
         }
 
-        /*      How to use the TransponderRecieverFactory 
-                // Using the real transponder data receiver
-                var receiver = TransponderReceiverFactory.CreateTransponderDataReceiver();
-                var receiver = TransponderReceiverFactory.CreateTransponderDataReceiver(); // new
+        public Plane Decode(string data)
+        {
+            var fly = new Plane();
+            string[] split = data.Split(';');
 
-                // Dependency injection with the real TDR
-                var system = new TransponderReceiverUser.TransponderReceiverClient(receiver);
-                var system = new HandleRTD(receiver); // new
+            fly.Tag = split[0];
+            fly.XCoordinate = Convert.ToInt32(split[1]);
+            fly.YCoordinate = Convert.ToInt32(split[2]);
+            fly.Altitude = Convert.ToInt32(split[3]);
+            fly.TimeStamp = DateTime.ParseExact(split[4], "yyyyMMddHHmmssfff", CultureInfo.InvariantCulture);
+            return fly;
 
-                // Let the real TDR execute in the background
-                while (true)
-                    Thread.Sleep(1000);
-         */
+        }
 
+      
 
     }
 
