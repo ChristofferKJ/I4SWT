@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,39 +17,35 @@ namespace ATM
         public double Velocity { get; set; }
         public double Course { get; set; }
 
-       
-        public Plane(string tag, string x, string y, string altitude, string timeStamp )
+        
+        public Plane(string tag, string x, string y, string altitude, string timeStamp)
         {
             Tag = tag;
             XCoordinate = int.Parse(x);
             YCoordinate = int.Parse(y);
             Altitude = int.Parse(altitude);
             TimeStamp = timeStamp;
+            Course = 0;
+            Velocity = 0;
+
+
         }
 
-        public void AddPlane(Plane plane, List<Plane> planes)
+        public void CheckPlane(List<Plane> Planes, Plane plane)
         {
-            foreach (var item in planes)
+            foreach (var plane1 in Planes)
             {
-                if(plane.Tag == item.Tag)
+                if (plane1.Tag == plane.Tag)
                 {
-                    Console.WriteLine("Updating old plane");
-                    item.Velocity = CalcVelocity(item, plane);
-                    item.Altitude = plane.Altitude;
-                    item.XCoordinate = plane.XCoordinate;
-                    item.YCoordinate = plane.YCoordinate;
-                    item.TimeStamp = plane.TimeStamp;
-                    item.Course = CalcCourse(item, plane);
-
-                }
-                else
-                {
-                    Console.WriteLine("Adding new plane");
-                    plane.Course = 0;
-                    plane.Velocity = 0;
-                    planes.Add(plane);
+                    plane1.Course += 10;  //CalcCourse(plane1, plane);
+                    plane1.Velocity += 10; //CalcVelocity(plane1, plane);
+                    return;
                 }
             }
+
+            Planes.Add(plane);
+                     
+
         }
 
         public double CalcVelocity(Plane oldPlane, Plane newPlane)

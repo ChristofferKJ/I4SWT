@@ -11,8 +11,6 @@ namespace ATM
 
         private ITransponderReceiver Receiver;
 
-        
-
       
         public HandleRTD(ITransponderReceiver receiver)
         {
@@ -21,6 +19,7 @@ namespace ATM
         }
         private void OnDataReady(object sender, RawTransponderDataEventArgs e)
         {
+            Decoder myDecoder = new Decoder();
             
             Console.WriteLine("Data ready");
             foreach (var data in e.TransponderData)
@@ -29,13 +28,10 @@ namespace ATM
                 
             }
 
-            //List<Plane> planes = myDecoder.Decode(e.TransponderData);
+            //
+           myDecoder.Decode(e.TransponderData);
 
-            foreach (var plane in planes)
-            {
-                Console.WriteLine($"Tag {plane.Tag} X {plane.XCoordinate} Y {plane.YCoordinate} altitude {plane.Altitude} velocity {plane.Velocity} course {plane.Course}");
-            }
-
+           
         }
     }
           

@@ -16,3 +16,4 @@ C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMon
 C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csproj.CopyComplete
 C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.dll
 C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.pdb
+C:\Users\tobia\Desktop\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.csprojAssemblyReference.cache
