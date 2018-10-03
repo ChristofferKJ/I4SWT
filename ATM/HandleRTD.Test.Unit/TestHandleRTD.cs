@@ -15,9 +15,9 @@ namespace HandleRTD.Test.Unit
         [SetUp]
         public void Setup()
         {
-                // Make a fake Transponder Data Receiver
+              // Make a fake Transponder Data Receiver
               //  _fakeTransponderReceiver = Substitute.For<ITransponderReceiver>();
-                // Inject the fake TDR
+              // Inject the fake TDR
                 _uut = new ATM.HandleRTD(_fakeTransponderReceiver);
         }
 
@@ -30,11 +30,11 @@ namespace HandleRTD.Test.Unit
                 testData.Add("BCD123;10005;85890;12000;20151006213456789");
                 testData.Add("XYZ987;25059;75654;4000;20151006213456789");
 
-                // Act: Trigger the fake object to execute event invocation
+               // Act: Trigger the fake object to execute event invocation
                // _fakeTransponderReceiver.TransponderDataReady
-                  //  += Raise.EventWith(this, new RawTransponderDataEventArgs(testData));
+               //  += Raise.EventWith(this, new RawTransponderDataEventArgs(testData));
 
-                // Assert something here or use an NSubstitute Received
+               // Assert something here or use an NSubstitute Received
         }
         
     }
