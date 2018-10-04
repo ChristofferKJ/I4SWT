@@ -67,13 +67,21 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="TransponderReceiver, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\source\repos\ATM\ATM\TransponderReceiver.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Tests\CheckPlanesTest.cs" />
     <Compile Include="Tests\CalculateVelocityTest .cs" />
     <Compile Include="Tests\CalculateCourseTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Tests\DetectSeparationEventTest.cs" />
+=======
+    <Compile Include="Tests\HandleRTDTest.cs" />
+>>>>>>> aa9d089d0bfd72f8e012608c4d9023f206057423
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AirTrafficMonitor\ATM Library.csproj">
