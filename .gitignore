@@ -13,6 +13,9 @@
 *.nuget.props
 *.nuget.targets
 
+bin 
+obj
+
 # User-specific files
 *.suo
 *.user
