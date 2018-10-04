@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ATM
 {
-    interface ILog
+    public interface ILog
     {
         void WriteToLog(String PlaneTagA, String PlaneTagB, string TimeOfOccurrencce);
     }

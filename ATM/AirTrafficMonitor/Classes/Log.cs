@@ -7,7 +7,7 @@ using System.IO;
 
 namespace ATM
 {
-    class Log : ILog
+    public class Log : ILog
     {
 
         public void WriteToLog(String PlaneTagA, String PlaneTagB, string TimeOfOccurrencce)
