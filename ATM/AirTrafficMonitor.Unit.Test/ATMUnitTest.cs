@@ -13,7 +13,6 @@ namespace AirTrafficMonitor.Unit.Test
         [Test]
         public void Decode_()
         {
-            var uut = new ATM.Decoder(); 
 
         }
 
