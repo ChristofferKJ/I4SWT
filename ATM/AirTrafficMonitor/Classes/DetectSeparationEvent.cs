@@ -18,8 +18,8 @@ namespace ATM
                     {
                         continue;
                     }
-                    if (Math.Abs(plane1.XCoordinate - plane2.XCoordinate) < 5000 ||
-                        Math.Abs(plane1.YCoordinate - plane2.YCoordinate) < 5000 ||
+                    if (Math.Abs(plane1.XCoordinate - plane2.XCoordinate) < 5000 &&
+                        Math.Abs(plane1.YCoordinate - plane2.YCoordinate) < 5000 &&
                         Math.Abs(plane1.Altitude - plane2.Altitude) < 300) 
                     {
                         PassSepEvent(plane1, plane2, Convert.ToString(plane1.TimeStamp));
