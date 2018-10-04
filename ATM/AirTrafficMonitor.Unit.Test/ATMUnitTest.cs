@@ -62,6 +62,7 @@ namespace AirTrafficMonitor.Unit.Test
         [Test]
         public void Decode_()
         {
+<<<<<<< HEAD
            
             List<string> testData = new List<string>();
             testData.Add("ATR423;39045;12932;14000;20151006213456789");
@@ -85,6 +86,8 @@ namespace AirTrafficMonitor.Unit.Test
             //Assert.That(airspace.Planes.IsNullOrEmpty);
            
 
+=======
+>>>>>>> 5beb26d109e313001dc50c5d2720ec61a7e70c9a
 
         }
 

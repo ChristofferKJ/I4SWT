@@ -12,6 +12,7 @@ namespace ATM
 
         private readonly ITransponderReceiver Receiver;
         private readonly Airspace _CheckPlanes;
+        private DetectSeparationEvent _detectSeparationEvent;
 
         public HandleRTD(ITransponderReceiver receiver, Airspace CheckPlanes)
         {
@@ -25,6 +26,7 @@ namespace ATM
         {
             var datalist = e.TransponderData;
             var planeList = new List<Plane>();
+            DetectSeparationEvent detectSeparationEvent = new DetectSeparationEvent();
 
             for(int i = 0; i<datalist.Count; i++)
             {
@@ -33,6 +35,7 @@ namespace ATM
             }
 
             _CheckPlanes.CheckAirspace(planeList);
+            detectSeparationEvent.CheckSepEvent(planeList);
         }
 
         public Plane Decode(string data)

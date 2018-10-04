@@ -16,7 +16,7 @@ namespace ATM
                 Console.WriteLine($"Position: ({plane.XCoordinate},{plane.YCoordinate})");
                 Console.WriteLine($"Altitude: {plane.Altitude}m");
                 Console.WriteLine($"Speed: {plane.Velocity}m/s");
-                Console.WriteLine($"Course: {plane.Course} degrees ");
+                Console.WriteLine($"Course: {plane.Course} degrees \n");
             }
             
                 
