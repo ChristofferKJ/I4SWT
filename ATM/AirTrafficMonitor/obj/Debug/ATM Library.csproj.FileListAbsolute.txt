@@ -18,3 +18,13 @@ C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\De
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\ATM Library.csproj.CopyComplete
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.dll
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.pdb
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\AirTrafficMonitor.dll
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\AirTrafficMonitor.pdb
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\nunit.framework.dll
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\TransponderReceiver.dll
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor\bin\Debug\nunit.framework.xml
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\ATM Library.csprojAssemblyReference.cache
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\ATM Library.csproj.CoreCompileInputs.cache
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\ATM Library.csproj.CopyComplete
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.dll
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor\obj\Debug\AirTrafficMonitor.pdb

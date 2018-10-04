@@ -10,13 +10,17 @@ namespace ATM
     {
         public void CheckSepEvent(List<Plane> planes)
         {
-            foreach (Plane plane1 in planes)
+          foreach (Plane plane1 in planes)
             {
                 foreach (Plane plane2 in planes)
                 {
-                    if (plane1.XCoordinate - plane2.XCoordinate < 5000 || 
-                        plane1.YCoordinate - plane2.YCoordinate < 5000 ||
-                        plane1.Altitude - plane2.Altitude < 300)
+                    if (plane1 == plane2)
+                    {
+                        continue;
+                    }
+                    if (Math.Abs(plane1.XCoordinate - plane2.XCoordinate) < 5000 ||
+                        Math.Abs(plane1.YCoordinate - plane2.YCoordinate) < 5000 ||
+                        Math.Abs(plane1.Altitude - plane2.Altitude) < 300) 
                     {
                         PassSepEvent(plane1, plane2, Convert.ToString(plane1.TimeStamp));
                     }
