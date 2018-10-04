@@ -29,7 +29,7 @@ namespace ATM
         {
             foreach (var plane in airspace.ToList())
             {
-                if (plane.XCoordinate < SouthWest_X || plane.XCoordinate < SouthWest_Y || plane.YCoordinate > NorthEast_X || plane.YCoordinate >NorthEast_Y || plane.Altitude < MinHeight || plane.Altitude > MaxHeight)
+                if (plane.XCoordinate < SouthWest_X || plane.YCoordinate < SouthWest_Y || plane.YCoordinate > NorthEast_Y || plane.XCoordinate >NorthEast_X || plane.Altitude < MinHeight || plane.Altitude > MaxHeight)
                 {
                     airspace.Remove(plane);
                 }
