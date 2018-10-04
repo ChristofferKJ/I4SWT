@@ -76,11 +76,8 @@
     <Compile Include="Tests\CalculateVelocityTest .cs" />
     <Compile Include="Tests\CalculateCourseTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <Compile Include="Tests\DetectSeparationEventTest.cs" />
-=======
     <Compile Include="Tests\HandleRTDTest.cs" />
->>>>>>> aa9d089d0bfd72f8e012608c4d9023f206057423
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AirTrafficMonitor\ATM Library.csproj">
