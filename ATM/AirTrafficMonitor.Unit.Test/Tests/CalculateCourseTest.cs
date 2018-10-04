@@ -60,7 +60,7 @@ namespace AirTrafficMonitor.Unit.Test
         }
 
         [Test]
-        public void CC_fly1_fly2_newcord_Is26p57deg()
+        public void CC_fly1_fly2_newcord_Is206p57deg()
         {
             fly1.XCoordinate = 1000;
             fly1.YCoordinate = 1000;
@@ -68,7 +68,7 @@ namespace AirTrafficMonitor.Unit.Test
             fly2.YCoordinate = 5000;
 
             uut.CalcCourse(fly1, fly2);
-            Assert.That(fly2.Course, Is.EqualTo(26.57));
+            Assert.That(fly2.Course, Is.EqualTo(206.565051177078));
         }
     }
 }
