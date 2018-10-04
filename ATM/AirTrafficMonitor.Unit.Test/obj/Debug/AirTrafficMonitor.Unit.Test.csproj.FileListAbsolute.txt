@@ -37,7 +37,6 @@ C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\
 C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\AirTrafficMonitor.Unit.Test.pdb
 C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\AirTrafficMonitor.dll
 C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\nunit.framework.dll
-C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\TransponderReceiver.dll
 C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\AirTrafficMonitor.pdb
 C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\nunit.framework.xml
 C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\obj\Debug\AirTrafficMonitor.Unit.Test.csprojAssemblyReference.cache
@@ -46,3 +45,7 @@ C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\
 C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\obj\Debug\AirTrafficMonitor.Unit.Test.dll
 C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\obj\Debug\AirTrafficMonitor.Unit.Test.pdb
 >>>>>>> 5beb26d109e313001dc50c5d2720ec61a7e70c9a
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\ATM rendition.exe
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\ATM rendition.pdb
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\ATM rendition.exe.config
+C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\System.Threading.Tasks.Extensions.xml

@@ -69,10 +69,6 @@
       <Project>{7192e4b0-8a5c-4073-8903-7ff227dc27fe}</Project>
       <Name>ATM Library</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ATM rendition\ATM Application.csproj">
-      <Project>{dadff313-9df7-4d5e-8006-0fcb018b4ca9}</Project>
-      <Name>ATM Application</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
