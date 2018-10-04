@@ -28,33 +28,42 @@ namespace AirTrafficMonitor.Unit.Test
 
             fly1 = new Plane();
             fly1.Tag = "ABC123";
-            fly1.XCoordinate = 35941;
-            fly1.YCoordinate = 10121;
-            fly1.Altitude = 18100; 
+            fly1.XCoordinate = 1000;
+            fly1.YCoordinate = 1000;
+            fly1.Altitude = 17100; 
             fly1.TimeStamp = time1; 
 
             fly2 = new Plane();
             fly2.Tag = "ABC123";
-            fly2.XCoordinate = 35959;
-            fly2.YCoordinate = 10121;
+            fly2.XCoordinate = 2000;
+            fly2.YCoordinate = 2000;
             fly2.Altitude = 18100; 
             fly2.TimeStamp = time2; 
         }
 
         [Test]
-        public void CC_fly1_fly2_IsNot900vel()
+        public void CV_fly1_fly2_IsNot900vel()
         {
             uut.CalcVelocity(fly1, fly2);
             Assert.That(fly2.Velocity, Is.Not.EqualTo(900));
         }
 
         [Test]
-        public void CC_fly1_fly2_Is136p8vel()
+        public void CV_fly1_fly2_Is1732p05()
         {
             uut.CalcVelocity(fly1, fly2);
-            Assert.That(fly2.Velocity, Is.EqualTo(136.853031112502));
+            Assert.That(fly2.Velocity, Is.EqualTo(1732.0508075688772));
         }
 
+        [Test]
+        public void CV_fly1_fly2_newTime_Is28p87()
+        {
+            fly1.TimeStamp = new DateTime(2010, 10, 10, 00, 00, 00, 00);
+            fly2.TimeStamp = new DateTime(2010, 10, 10, 00, 01, 00, 00);
 
+            uut.CalcVelocity(fly1, fly2);
+            Assert.That(fly2.Velocity, Is.EqualTo(28.867513459481287));
+
+        }
     }
 }
