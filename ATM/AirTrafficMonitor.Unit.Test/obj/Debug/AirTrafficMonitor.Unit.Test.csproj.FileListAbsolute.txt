@@ -2,7 +2,6 @@ C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.T
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\AirTrafficMonitor.Unit.Test.pdb
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\AirTrafficMonitor.dll
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\nunit.framework.dll
-C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\TransponderReceiver.dll
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\AirTrafficMonitor.pdb
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\nunit.framework.pdb
 C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\nunit.framework.xml
@@ -49,3 +48,7 @@ C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\
 C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\ATM rendition.pdb
 C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\ATM rendition.exe.config
 C:\Users\Marius\Documents\4. semester\SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\Castle.Core.dll
+C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\NSubstitute.dll
+C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Hindkaer\Desktop\IKT\4Semester\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\System.Threading.Tasks.Extensions.xml
