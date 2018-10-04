@@ -31,3 +31,6 @@ C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\I4SWT\ATM\AirTrafficMoni
 C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
 C:\Users\chris\OneDrive\Desktop\4. Semester\I4SWT\I4SWT\I4SWT\ATM\AirTrafficMonitor.Unit.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Marius\Documents\4. semester\SWT\GtiHub\I4SWT\ATM\AirTrafficMonitor.Unit.Test\obj\Debug\AirTrafficMonitor.Unit.Test.csprojAssemblyReference.cache
+C:\Users\Marius\Documents\4. semester\SWT\GtiHub\I4SWT\ATM\AirTrafficMonitor.Unit.Test\obj\Debug\AirTrafficMonitor.Unit.Test.csproj.CoreCompileInputs.cache
+C:\Users\Marius\Documents\4. semester\SWT\GtiHub\I4SWT\ATM\AirTrafficMonitor.Unit.Test\obj\Debug\AirTrafficMonitor.Unit.Test.dll
