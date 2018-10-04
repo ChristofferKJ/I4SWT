@@ -13,8 +13,6 @@ namespace AirTrafficMonitor.Unit.Test.Tests
 {
     class HandleRTDTest
     {
-    
-
         private ITransponderReceiver fakeTransponderReceiver;
         private HandleRTD uut;
         private Airspace airspace;
