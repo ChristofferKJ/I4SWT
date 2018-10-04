@@ -13,8 +13,7 @@
 *.nuget.props
 *.nuget.targets
 
-bin 
-obj
+
 
 # User-specific files
 *.suo
@@ -33,6 +32,8 @@ x64/
 x86/
 bld/
 [Ll]og/
+bin/ 
+obj/
 
 # Visual Studio 2015 cache/options directory
 .vs/
