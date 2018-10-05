@@ -24,7 +24,8 @@ namespace AirTrafficMonitor.Unit.Test.Tests
         [TestCase("1234","1234","kl.14")]
         [TestCase("abc", "ss", "kl.15")]
         [TestCase("", "", "")]
-        public void TestWriteToLog(string planeTagA, string planeTagB, string timeOfOccurrencce)
+        public void TestWriteToLog(string planeTagA, string planeTagB, string timeOfOccurrencce) 
+        // Vi kom desværre ikke i mål med denne test. Den virkede lokalt, men der var problemer da det kørte på Jenkins.
         {
             fakeLog.WriteToLog(planeTagA, planeTagB, timeOfOccurrencce);
             using (StreamReader sr = new StreamReader("Log.txt"))
