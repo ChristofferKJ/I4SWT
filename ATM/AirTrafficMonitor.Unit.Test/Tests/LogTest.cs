@@ -21,7 +21,7 @@ namespace AirTrafficMonitor.Unit.Test.Tests
         }
 
 
-        [TestCase("1234","1234","kl.14")]
+       /* [TestCase("1234","1234","kl.14")]
         [TestCase("abc", "ss", "kl.15")]
         [TestCase("", "", "")]
         public void TestWriteToLog(string planeTagA, string planeTagB, string timeOfOccurrencce) 
@@ -35,7 +35,7 @@ namespace AirTrafficMonitor.Unit.Test.Tests
             }
             
         }
-
+        */
 
     }
 }

@@ -82,6 +82,7 @@ namespace AirTrafficMonitor.Unit.Test.Tests
 
             fakeTransponderReceiver.TransponderDataReady += Raise.EventWith(this,new RawTransponderDataEventArgs(testData));
             
+            // Mangler assert et eller andet 
         }
 
        
